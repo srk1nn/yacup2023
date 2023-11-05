@@ -30,8 +30,6 @@ final class Presenter {
     private let audioSession: AVAudioSession = .sharedInstance()
     private var voiceCounter = 0
 
-
-
     init(view: ViewController) {
         self.view = view
 
@@ -52,8 +50,6 @@ final class Presenter {
 
         resetState()
         view.update(state: state)
-
-//        try? audioSession.setActive(true)
 
         engine.stop()
         engine.prepare(sample: sample, volume: volume, speed: speed)
