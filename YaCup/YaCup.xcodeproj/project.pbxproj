@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F2D16A32AF2A8830044214A /* UIView+AnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16A22AF2A8830044214A /* UIView+AnchorPoint.swift */; };
+		4F2D16A52AF2A89F0044214A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16A42AF2A89F0044214A /* UIColor+Extension.swift */; };
+		4F2D16A82AF2A8C80044214A /* SelectorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16A72AF2A8C80044214A /* SelectorSliderView.swift */; };
+		4F2D16AA2AF2A8E70044214A /* SelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16A92AF2A8E70044214A /* SelectorView.swift */; };
+		4F2D16AC2AF2AF810044214A /* InstrumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16AB2AF2AF810044214A /* InstrumentView.swift */; };
+		4F2D16AE2AF2EA0E0044214A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16AD2AF2EA0E0044214A /* MainView.swift */; };
+		4F2D16C12AF3FF240044214A /* LayersButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16C02AF3FF240044214A /* LayersButton.swift */; };
+		4F2D16C62AF405940044214A /* Cymatics - Uzi Phase Top Drum Loop - 130 BPM.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F2D16C52AF405930044214A /* Cymatics - Uzi Phase Top Drum Loop - 130 BPM.wav */; };
+		4F2D16C82AF4059E0044214A /* Cymatics - Uzi Hihat Loop 3 - 150 BPM.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F2D16C72AF4059E0044214A /* Cymatics - Uzi Hihat Loop 3 - 150 BPM.wav */; };
+		4F2D16CA2AF405CC0044214A /* Cymatics - Uzi Ethereal Melody Loop - 140 BPM D Min.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F2D16C92AF405CC0044214A /* Cymatics - Uzi Ethereal Melody Loop - 140 BPM D Min.wav */; };
+		4F2D16CC2AF405D20044214A /* Cymatics - Uzi Win Melody Loop - 120 BPM B Maj.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F2D16CB2AF405D20044214A /* Cymatics - Uzi Win Melody Loop - 120 BPM B Maj.wav */; };
+		4F2D16CE2AF406540044214A /* useful guitar chords_60bpm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F2D16CD2AF406540044214A /* useful guitar chords_60bpm.wav */; };
+		4F2D16D22AF407B30044214A /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16D12AF407B30044214A /* Sample.swift */; };
+		4F2D16D42AF407BD0044214A /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16D32AF407BD0044214A /* Layer.swift */; };
+		4F2D16D62AF407CF0044214A /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16D52AF407CF0044214A /* Presenter.swift */; };
+		4F2D16D82AF414940044214A /* Pack#1_ElectricGuitar_Mood 2_Em7_85BPM.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F2D16D72AF414940044214A /* Pack#1_ElectricGuitar_Mood 2_Em7_85BPM.wav */; };
+		4F2D16DA2AF414B00044214A /* Pack#1_ElectricGuitar_Mood 2_Ab Minor_75BPM.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F2D16D92AF414B00044214A /* Pack#1_ElectricGuitar_Mood 2_Ab Minor_75BPM.wav */; };
+		4F2D16DC2AF42E1A0044214A /* LayerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F2D16DB2AF42E1A0044214A /* LayerCell.xib */; };
+		4F2D16DE2AF430180044214A /* LayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16DD2AF430180044214A /* LayerCell.swift */; };
+		4F2D16EC2AF50FC20044214A /* ReplayTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16EB2AF50FC20044214A /* ReplayTimer.swift */; };
+		4F2D16EE2AF523D60044214A /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16ED2AF523D60044214A /* AudioEngine.swift */; };
+		4F2D16F02AF53AFE0044214A /* VoiceRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16EF2AF53AFE0044214A /* VoiceRecorder.swift */; };
+		4F2D16F22AF65B9E0044214A /* AudioRepeatablePlayerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16F12AF65B9E0044214A /* AudioRepeatablePlayerNode.swift */; };
+		4F2D16F62AF6AA5D0044214A /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16F52AF6AA5D0044214A /* WaveView.swift */; };
+		4F2D16F82AF78FFD0044214A /* FilePathFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D16F72AF78FFD0044214A /* FilePathFactory.swift */; };
+		4FF309E12AF1502F001D85C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF309E02AF1502F001D85C4 /* AppDelegate.swift */; };
+		4FF309E52AF1502F001D85C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF309E42AF1502F001D85C4 /* ViewController.swift */; };
+		4FF309E82AF1502F001D85C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF309E62AF1502F001D85C4 /* Main.storyboard */; };
+		4FF309EA2AF15032001D85C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF309E92AF15032001D85C4 /* Assets.xcassets */; };
+		4FF309ED2AF15032001D85C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF309EB2AF15032001D85C4 /* LaunchScreen.storyboard */; };
+		4FF309F52AF1603F001D85C4 /* Cymatics - Uzi Cash Full Drum Loop - 140 BPM.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4FF309F42AF1603F001D85C4 /* Cymatics - Uzi Cash Full Drum Loop - 140 BPM.wav */; };
+		4FF309F82AF169DF001D85C4 /* Cymatics - Uzi Creep Melody Loop - 140 BPM F Min.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4FF309F72AF169DF001D85C4 /* Cymatics - Uzi Creep Melody Loop - 140 BPM F Min.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F2D16A22AF2A8830044214A /* UIView+AnchorPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AnchorPoint.swift"; sourceTree = "<group>"; };
+		4F2D16A42AF2A89F0044214A /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		4F2D16A72AF2A8C80044214A /* SelectorSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorSliderView.swift; sourceTree = "<group>"; };
+		4F2D16A92AF2A8E70044214A /* SelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorView.swift; sourceTree = "<group>"; };
+		4F2D16AB2AF2AF810044214A /* InstrumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentView.swift; sourceTree = "<group>"; };
+		4F2D16AD2AF2EA0E0044214A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4F2D16C02AF3FF240044214A /* LayersButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayersButton.swift; sourceTree = "<group>"; };
+		4F2D16C52AF405930044214A /* Cymatics - Uzi Phase Top Drum Loop - 130 BPM.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Cymatics - Uzi Phase Top Drum Loop - 130 BPM.wav"; sourceTree = "<group>"; };
+		4F2D16C72AF4059E0044214A /* Cymatics - Uzi Hihat Loop 3 - 150 BPM.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Cymatics - Uzi Hihat Loop 3 - 150 BPM.wav"; sourceTree = "<group>"; };
+		4F2D16C92AF405CC0044214A /* Cymatics - Uzi Ethereal Melody Loop - 140 BPM D Min.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Cymatics - Uzi Ethereal Melody Loop - 140 BPM D Min.wav"; sourceTree = "<group>"; };
+		4F2D16CB2AF405D20044214A /* Cymatics - Uzi Win Melody Loop - 120 BPM B Maj.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Cymatics - Uzi Win Melody Loop - 120 BPM B Maj.wav"; sourceTree = "<group>"; };
+		4F2D16CD2AF406540044214A /* useful guitar chords_60bpm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "useful guitar chords_60bpm.wav"; sourceTree = "<group>"; };
+		4F2D16D12AF407B30044214A /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		4F2D16D32AF407BD0044214A /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		4F2D16D52AF407CF0044214A /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		4F2D16D72AF414940044214A /* Pack#1_ElectricGuitar_Mood 2_Em7_85BPM.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Pack#1_ElectricGuitar_Mood 2_Em7_85BPM.wav"; sourceTree = "<group>"; };
+		4F2D16D92AF414B00044214A /* Pack#1_ElectricGuitar_Mood 2_Ab Minor_75BPM.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Pack#1_ElectricGuitar_Mood 2_Ab Minor_75BPM.wav"; sourceTree = "<group>"; };
+		4F2D16DB2AF42E1A0044214A /* LayerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LayerCell.xib; sourceTree = "<group>"; };
+		4F2D16DD2AF430180044214A /* LayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerCell.swift; sourceTree = "<group>"; };
+		4F2D16EB2AF50FC20044214A /* ReplayTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayTimer.swift; sourceTree = "<group>"; };
+		4F2D16ED2AF523D60044214A /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		4F2D16EF2AF53AFE0044214A /* VoiceRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorder.swift; sourceTree = "<group>"; };
+		4F2D16F12AF65B9E0044214A /* AudioRepeatablePlayerNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRepeatablePlayerNode.swift; sourceTree = "<group>"; };
+		4F2D16F52AF6AA5D0044214A /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		4F2D16F72AF78FFD0044214A /* FilePathFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePathFactory.swift; sourceTree = "<group>"; };
+		4FF309DD2AF1502F001D85C4 /* YaCup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaCup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF309E02AF1502F001D85C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FF309E42AF1502F001D85C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FF309E72AF1502F001D85C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FF309E92AF15032001D85C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FF309EC2AF15032001D85C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FF309EE2AF15032001D85C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF309F42AF1603F001D85C4 /* Cymatics - Uzi Cash Full Drum Loop - 140 BPM.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Cymatics - Uzi Cash Full Drum Loop - 140 BPM.wav"; sourceTree = "<group>"; };
+		4FF309F72AF169DF001D85C4 /* Cymatics - Uzi Creep Melody Loop - 140 BPM F Min.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Cymatics - Uzi Creep Melody Loop - 140 BPM F Min.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FF309DA2AF1502F001D85C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F2D16A12AF2A8700044214A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4F2D16A22AF2A8830044214A /* UIView+AnchorPoint.swift */,
+				4F2D16A42AF2A89F0044214A /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4F2D16A62AF2A8BF0044214A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F2D16A72AF2A8C80044214A /* SelectorSliderView.swift */,
+				4F2D16A92AF2A8E70044214A /* SelectorView.swift */,
+				4F2D16AB2AF2AF810044214A /* InstrumentView.swift */,
+				4F2D16C02AF3FF240044214A /* LayersButton.swift */,
+				4F2D16AD2AF2EA0E0044214A /* MainView.swift */,
+				4F2D16DB2AF42E1A0044214A /* LayerCell.xib */,
+				4F2D16DD2AF430180044214A /* LayerCell.swift */,
+				4F2D16F52AF6AA5D0044214A /* WaveView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F2D16C22AF4054C0044214A /* Drum */ = {
+			isa = PBXGroup;
+			children = (
+				4FF309F42AF1603F001D85C4 /* Cymatics - Uzi Cash Full Drum Loop - 140 BPM.wav */,
+				4F2D16C52AF405930044214A /* Cymatics - Uzi Phase Top Drum Loop - 130 BPM.wav */,
+				4F2D16C72AF4059E0044214A /* Cymatics - Uzi Hihat Loop 3 - 150 BPM.wav */,
+			);
+			path = Drum;
+			sourceTree = "<group>";
+		};
+		4F2D16C32AF405710044214A /* Brass */ = {
+			isa = PBXGroup;
+			children = (
+				4FF309F72AF169DF001D85C4 /* Cymatics - Uzi Creep Melody Loop - 140 BPM F Min.wav */,
+				4F2D16C92AF405CC0044214A /* Cymatics - Uzi Ethereal Melody Loop - 140 BPM D Min.wav */,
+				4F2D16CB2AF405D20044214A /* Cymatics - Uzi Win Melody Loop - 120 BPM B Maj.wav */,
+			);
+			path = Brass;
+			sourceTree = "<group>";
+		};
+		4F2D16C42AF405760044214A /* Guitar */ = {
+			isa = PBXGroup;
+			children = (
+				4F2D16CD2AF406540044214A /* useful guitar chords_60bpm.wav */,
+				4F2D16D72AF414940044214A /* Pack#1_ElectricGuitar_Mood 2_Em7_85BPM.wav */,
+				4F2D16D92AF414B00044214A /* Pack#1_ElectricGuitar_Mood 2_Ab Minor_75BPM.wav */,
+			);
+			path = Guitar;
+			sourceTree = "<group>";
+		};
+		4F2D16F32AF66DA70044214A /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				4F2D16EF2AF53AFE0044214A /* VoiceRecorder.swift */,
+				4F2D16ED2AF523D60044214A /* AudioEngine.swift */,
+				4F2D16F12AF65B9E0044214A /* AudioRepeatablePlayerNode.swift */,
+				4F2D16EB2AF50FC20044214A /* ReplayTimer.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		4F2D16F42AF6AA3E0044214A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F2D16D12AF407B30044214A /* Sample.swift */,
+				4F2D16D32AF407BD0044214A /* Layer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FF309D42AF1502F001D85C4 = {
+			isa = PBXGroup;
+			children = (
+				4FF309DF2AF1502F001D85C4 /* YaCup */,
+				4FF309DE2AF1502F001D85C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FF309DE2AF1502F001D85C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FF309DD2AF1502F001D85C4 /* YaCup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FF309DF2AF1502F001D85C4 /* YaCup */ = {
+			isa = PBXGroup;
+			children = (
+				4F2D16F42AF6AA3E0044214A /* Models */,
+				4F2D16A62AF2A8BF0044214A /* Views */,
+				4F2D16A12AF2A8700044214A /* Extensions */,
+				4FF309F62AF1635C001D85C4 /* Samples */,
+				4F2D16F32AF66DA70044214A /* Audio */,
+				4FF309E02AF1502F001D85C4 /* AppDelegate.swift */,
+				4FF309E42AF1502F001D85C4 /* ViewController.swift */,
+				4F2D16D52AF407CF0044214A /* Presenter.swift */,
+				4F2D16F72AF78FFD0044214A /* FilePathFactory.swift */,
+				4FF309E62AF1502F001D85C4 /* Main.storyboard */,
+				4FF309E92AF15032001D85C4 /* Assets.xcassets */,
+				4FF309EB2AF15032001D85C4 /* LaunchScreen.storyboard */,
+				4FF309EE2AF15032001D85C4 /* Info.plist */,
+			);
+			path = YaCup;
+			sourceTree = "<group>";
+		};
+		4FF309F62AF1635C001D85C4 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				4F2D16C42AF405760044214A /* Guitar */,
+				4F2D16C32AF405710044214A /* Brass */,
+				4F2D16C22AF4054C0044214A /* Drum */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FF309DC2AF1502F001D85C4 /* YaCup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF309F12AF15032001D85C4 /* Build configuration list for PBXNativeTarget "YaCup" */;
+			buildPhases = (
+				4FF309D92AF1502F001D85C4 /* Sources */,
+				4FF309DA2AF1502F001D85C4 /* Frameworks */,
+				4FF309DB2AF1502F001D85C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YaCup;
+			productName = YaCup;
+			productReference = 4FF309DD2AF1502F001D85C4 /* YaCup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FF309D52AF1502F001D85C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4FF309DC2AF1502F001D85C4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 4FF309D82AF1502F001D85C4 /* Build configuration list for PBXProject "YaCup" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FF309D42AF1502F001D85C4;
+			productRefGroup = 4FF309DE2AF1502F001D85C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FF309DC2AF1502F001D85C4 /* YaCup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FF309DB2AF1502F001D85C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2D16C82AF4059E0044214A /* Cymatics - Uzi Hihat Loop 3 - 150 BPM.wav in Resources */,
+				4F2D16C62AF405940044214A /* Cymatics - Uzi Phase Top Drum Loop - 130 BPM.wav in Resources */,
+				4FF309ED2AF15032001D85C4 /* LaunchScreen.storyboard in Resources */,
+				4FF309EA2AF15032001D85C4 /* Assets.xcassets in Resources */,
+				4F2D16CA2AF405CC0044214A /* Cymatics - Uzi Ethereal Melody Loop - 140 BPM D Min.wav in Resources */,
+				4F2D16DC2AF42E1A0044214A /* LayerCell.xib in Resources */,
+				4FF309F82AF169DF001D85C4 /* Cymatics - Uzi Creep Melody Loop - 140 BPM F Min.wav in Resources */,
+				4FF309E82AF1502F001D85C4 /* Main.storyboard in Resources */,
+				4F2D16D82AF414940044214A /* Pack#1_ElectricGuitar_Mood 2_Em7_85BPM.wav in Resources */,
+				4FF309F52AF1603F001D85C4 /* Cymatics - Uzi Cash Full Drum Loop - 140 BPM.wav in Resources */,
+				4F2D16DA2AF414B00044214A /* Pack#1_ElectricGuitar_Mood 2_Ab Minor_75BPM.wav in Resources */,
+				4F2D16CC2AF405D20044214A /* Cymatics - Uzi Win Melody Loop - 120 BPM B Maj.wav in Resources */,
+				4F2D16CE2AF406540044214A /* useful guitar chords_60bpm.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FF309D92AF1502F001D85C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2D16F22AF65B9E0044214A /* AudioRepeatablePlayerNode.swift in Sources */,
+				4F2D16AC2AF2AF810044214A /* InstrumentView.swift in Sources */,
+				4F2D16AE2AF2EA0E0044214A /* MainView.swift in Sources */,
+				4F2D16A32AF2A8830044214A /* UIView+AnchorPoint.swift in Sources */,
+				4F2D16D42AF407BD0044214A /* Layer.swift in Sources */,
+				4F2D16EC2AF50FC20044214A /* ReplayTimer.swift in Sources */,
+				4F2D16A82AF2A8C80044214A /* SelectorSliderView.swift in Sources */,
+				4F2D16F62AF6AA5D0044214A /* WaveView.swift in Sources */,
+				4FF309E52AF1502F001D85C4 /* ViewController.swift in Sources */,
+				4F2D16D62AF407CF0044214A /* Presenter.swift in Sources */,
+				4F2D16F82AF78FFD0044214A /* FilePathFactory.swift in Sources */,
+				4F2D16D22AF407B30044214A /* Sample.swift in Sources */,
+				4FF309E12AF1502F001D85C4 /* AppDelegate.swift in Sources */,
+				4F2D16F02AF53AFE0044214A /* VoiceRecorder.swift in Sources */,
+				4F2D16A52AF2A89F0044214A /* UIColor+Extension.swift in Sources */,
+				4F2D16DE2AF430180044214A /* LayerCell.swift in Sources */,
+				4F2D16EE2AF523D60044214A /* AudioEngine.swift in Sources */,
+				4F2D16C12AF3FF240044214A /* LayersButton.swift in Sources */,
+				4F2D16AA2AF2A8E70044214A /* SelectorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FF309E62AF1502F001D85C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FF309E72AF1502F001D85C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FF309EB2AF15032001D85C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FF309EC2AF15032001D85C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FF309EF2AF15032001D85C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FF309F02AF15032001D85C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FF309F22AF15032001D85C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LDFTZVF8F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YaCup/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Для записи вокала необходим доступ к микрофону";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igor.sorokin.YaCup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4FF309F32AF15032001D85C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LDFTZVF8F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YaCup/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Для записи вокала необходим доступ к микрофону";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igor.sorokin.YaCup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FF309D82AF1502F001D85C4 /* Build configuration list for PBXProject "YaCup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF309EF2AF15032001D85C4 /* Debug */,
+				4FF309F02AF15032001D85C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FF309F12AF15032001D85C4 /* Build configuration list for PBXNativeTarget "YaCup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF309F22AF15032001D85C4 /* Debug */,
+				4FF309F32AF15032001D85C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FF309D52AF1502F001D85C4 /* Project object */;
+}

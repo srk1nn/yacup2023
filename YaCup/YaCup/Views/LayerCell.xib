@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="48" id="54N-QK-3sc" customClass="LayerCell" customModule="YaCup" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="54N-QK-3sc" id="Ngh-DM-D7z">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4x0-i4-rc7">
+                        <rect key="frame" x="0.0" y="4" width="393" height="36"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0z-oy-PRk">
+                        <rect key="frame" x="10" y="11.999999999999998" width="41.333333333333336" height="20.333333333333329"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3F-hu-uw4">
+                        <rect key="frame" x="357" y="4" width="36" height="36"/>
+                        <color key="backgroundColor" red="0.89411764705882346" green="0.89411764705882346" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="W3F-hu-uw4" secondAttribute="height" multiplier="1:1" id="gWa-Yp-WeP"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="close"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iiz-Lq-Pji">
+                        <rect key="frame" x="287" y="7" width="60" height="30"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppl-bG-1mI">
+                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="cHH-lr-jTy"/>
+                                    <constraint firstAttribute="height" constant="30" id="gxP-5j-GeU"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="play"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4cL-vq-d5J">
+                                <rect key="frame" x="30" y="0.0" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="6sU-Ru-aCV"/>
+                                    <constraint firstAttribute="height" constant="30" id="NaZ-IE-9AZ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="mute"/>
+                            </button>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4x0-i4-rc7" firstAttribute="top" secondItem="Ngh-DM-D7z" secondAttribute="top" constant="4" id="1oD-Fe-XLE"/>
+                    <constraint firstItem="4x0-i4-rc7" firstAttribute="leading" secondItem="Ngh-DM-D7z" secondAttribute="leading" id="3ZE-Ju-q2k"/>
+                    <constraint firstItem="W3F-hu-uw4" firstAttribute="top" secondItem="4x0-i4-rc7" secondAttribute="top" id="Bdr-Fq-lZG"/>
+                    <constraint firstAttribute="trailing" secondItem="4x0-i4-rc7" secondAttribute="trailing" id="INl-6U-YBo"/>
+                    <constraint firstItem="4x0-i4-rc7" firstAttribute="bottom" secondItem="W3F-hu-uw4" secondAttribute="bottom" id="Idz-sB-0KA"/>
+                    <constraint firstItem="W3F-hu-uw4" firstAttribute="leading" secondItem="Iiz-Lq-Pji" secondAttribute="trailing" constant="10" id="IhQ-Vi-A7E"/>
+                    <constraint firstAttribute="bottom" secondItem="4x0-i4-rc7" secondAttribute="bottom" constant="4" id="MA3-Rl-gNG"/>
+                    <constraint firstItem="O0z-oy-PRk" firstAttribute="centerY" secondItem="Ngh-DM-D7z" secondAttribute="centerY" id="hM1-oQ-rxa"/>
+                    <constraint firstItem="Iiz-Lq-Pji" firstAttribute="centerY" secondItem="Ngh-DM-D7z" secondAttribute="centerY" id="qGg-yl-lqB"/>
+                    <constraint firstItem="O0z-oy-PRk" firstAttribute="leading" secondItem="Ngh-DM-D7z" secondAttribute="leading" constant="10" id="rRe-5K-akq"/>
+                    <constraint firstAttribute="trailing" secondItem="W3F-hu-uw4" secondAttribute="trailing" id="tXi-Zc-wJL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgView" destination="4x0-i4-rc7" id="cbG-M3-rvG"/>
+                <outlet property="muteButton" destination="4cL-vq-d5J" id="AAy-tI-xUl"/>
+                <outlet property="nameLabel" destination="O0z-oy-PRk" id="rD1-9B-Jok"/>
+                <outlet property="playButton" destination="ppl-bG-1mI" id="VTe-ny-mBX"/>
+                <outlet property="removeButton" destination="W3F-hu-uw4" id="F6W-YO-lcS"/>
+            </connections>
+            <point key="canvasLocation" x="44" y="-63"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="close" width="15" height="16"/>
+        <image name="mute" width="18.333333969116211" height="18.333333969116211"/>
+        <image name="play" width="11.666666984558105" height="13"/>
+    </resources>
+</document>
